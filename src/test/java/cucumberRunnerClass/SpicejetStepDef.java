@@ -28,6 +28,7 @@ public class SpicejetStepDef {
 	@Then("^user should enter into leaving from$")
 	public void user_should_enter_into_leaving_from() throws Exception{
 		driver.findElement(By.xpath("//a[@text='Bengaluru (BLR)']")).click();
+		System.out.println("Test");
 		driver.quit();
 	}
 }
