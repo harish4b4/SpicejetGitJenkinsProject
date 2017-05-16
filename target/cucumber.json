@@ -1,0 +1,58 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Test with valid credential",
+        "description": "",
+        "id": "test-the-functionality-of-spicejet-scenario;test-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17161612835,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open firefox and start validation",
+            "match": {
+              "location": "SpicejetStepDef.open_firefox_and_start_validation()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91118885,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user entered valid data in leaving from",
+            "match": {
+              "location": "SpicejetStepDef.user_entered_valid_data_in_leaving_from()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1725652143,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should enter into leaving from",
+            "match": {
+              "location": "SpicejetStepDef.user_should_enter_into_leaving_from()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the functionality of spicejet scenario",
+    "description": "",
+    "id": "test-the-functionality-of-spicejet-scenario",
+    "keyword": "Feature",
+    "uri": "features/Spicejet.feature"
+  }
+]
