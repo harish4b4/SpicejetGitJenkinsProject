@@ -14,7 +14,7 @@ public class SpicejetStepDef {
 	
 	@Given("^open firefox and start validation$")
 	public void open_firefox_and_start_validation() throws Exception{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\E002465\\Downloads\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("http://www.spicejet.com/");
 	}
